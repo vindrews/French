@@ -1,2 +1,2 @@
 # French Quiz
-https://github.io/vindrews/French-Quiz/
+https://vindrews.github.iov/French-Quiz/
