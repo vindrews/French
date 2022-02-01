@@ -2,12 +2,31 @@ body{
 background-color: Lavender;
 }
 
+#fin{
+	display: none;
+	font-family: "Courier New";
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	border: 1px solid white;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px
+	width: 60%;
+}
+
 h1{
 	text-align: center;
 	font-family: Monaco;
 	font-size: 50px;
 	border: 3px solid black;
-	margin: 20px 470px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
 	background: violet;
 }
 
@@ -17,7 +36,11 @@ h1{
 	font-size: 30px;
 	border: 2px solid black;
 	padding: 15px;
-	margin: 50px 440px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
 	background: DodgerBlue;
 }
 
@@ -27,19 +50,27 @@ h1{
 	font-size: 25px;
 	border: 2px solid black;
 	padding: 10px;
-	margin: 60px 700px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
 	background: Orange;
 	font-weight: bold;
 }
 
 .suivante{
-	display: none;
+	visibility: hidden;
 	text-align:center;
 	font-family: Monaco;
 	font-size: 25px;
 	border: 2px solid black;
 	padding: 10px;
-	margin: 30px 700px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
 	background: Ivory;
 	font-weight: bold;
 }
@@ -58,5 +89,20 @@ h1{
 }
 
 .q4{
+	display: none;
+}
+.q5{
+	display: none;
+}
+
+.q6{
+	display: none;
+}
+
+.q7{
+	display: none;
+}
+
+.q8{
 	display: none;
 }
