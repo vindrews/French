@@ -44,10 +44,10 @@ $(document).ready(function(){
 });
 
 	$(".go9").click(function(){
-	$(".questions").css({"display": "none"});
-	$(".answers").css({"display": "none"});
-	$(".suivante").css({"display": "none"});
-	$("h1").css({"display": "none"});
+	$(".questions").fadeOut();
+	$(".answers").fadeOut();
+	$(".suivante").fadeOut();
+	$("h1").fadeOut();
 	$("body").css({"background-color": "black"});
 	$("#fin").css({"display": "block"});
 });
